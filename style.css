@@ -1,0 +1,114 @@
+.container {
+    width: 370px;
+    margin: 30px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(43, 41, 41);
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    box-shadow: 20px 20px 60px #e8e8e8, -20px -20px 60px #ffffff;
+}
+
+.text {
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    font-size: 40px;
+    padding: 10px 5px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: rgba(145, 145, 177, 0.89);
+    margin-bottom: 15px;
+    color: white;
+    margin-top: 7px;
+}
+
+.row {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    background: black;
+    box-shadow: 20px 20px 60px #0d0c0c,
+        -20px -20px 60px #0d0c0c;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgba(255, 255, 255, 0.973);
+    color: black;
+
+}
+
+.btn {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: rgba(145, 145, 177, 0.993);
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(231, 243, 63);
+}
+
+.btn1{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: rgba(77, 58, 253, 0.815);
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: rgba(255, 95, 36, 0.795);
+
+}
+
+
+
+
+@media(max-width:572px) {
+    .container {
+        width: auto;
+    }
+}

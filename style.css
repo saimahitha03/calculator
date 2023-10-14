@@ -22,9 +22,9 @@ input {
     border: none;
     outline: none;
     box-sizing: border-box;
-    background-color: rgba(145, 145, 177, 0.89);
+    background-color: #fffff9;
     margin-bottom: 15px;
-    color: white;
+    color: rgba(33, 33, 33, 0.745);
     margin-top: 7px;
 }
 
